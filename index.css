@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+.img-hover:hover{
+    transform: scale(0.9);
+    
+    
+}
+
+.bb:hover{
+    transform: scale(0.9);
+}
+
+.over{
+    overflow: hidden;
+    height: 7vh;
+}
+
+.bbb:hover .cc{
+    transform: scale(0.92);
+}
+.bbb:hover .h5{
+    transform: translatey(-35px);
+    transition: all 1s 0.1s;
+}
+.bbb:hover .h55{
+    transform: translatey(-36px);
+    transition: all 1s 0.1s;
+
+}
+.rotate{
+    animation: rote  9s ease-out normal infinite   ;
+}
+@keyframes rote {
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(-360deg);
+    }
+}
+
+.posti{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    display: none;
+    
+    
+}
+.posti:hover{
+    background-color: crimson;
+    color: white;
+    transition: all 1.5s 0.2s;
+
+}
+.bbb:hover .posti{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.height{
+    height: 60vh;
+    background-color: rgba(127, 129, 129, 0.63);
+}
+.realtive-div{
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abs{
+    position: absolute;
+    height: 30vh;
+}
+.abslot{
+    
+  position: relative;
+}
+.abs-butt{
+  position: absolute;
+    bottom: -20px;
+    left: 42%;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+.justy{
+    text-align: justify;
+}
+.line{
+    line-height: 14px;
+}
+.line:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .start1{
+        text-align: center !important;
+
+    }
+    .start2{
+        text-align: center !important;
+    }
+    .rotate{
+        height: 160px;
+        width: 160px;
+    }
+    .abs-butt{
+        left: 36%;
+    }
+
+}
+@media (max-width:310px) {
+    .funt{
+        font-size: 23px !important;
+    }
+    .rotate{
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .plent-photo{
+        height: auto;
+    
+    }
+}
+@media (max-width:370px) {
+    
+    .rotate{
+        height: 70px !important;
+        width: 70px !important;
+    }
+    .abs-butt{
+        display: none;
+    }
+}
+@media (max-width:550px) {
+    .plent-photo{
+        height: auto;
+    
+    }
+    .rotate{
+        height: 100px;
+        width: 100px;
+    }
+    .abs-butt{
+        left: 30%;
+    }
+}
