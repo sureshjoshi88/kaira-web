@@ -29,7 +29,7 @@
 
 }
 .rotate{
-    animation: rotate  9s ease-out normal infinite   ;
+    animation: rotate  9s linear normal infinite   ;
 }
 @keyframes rotate {
     to{
