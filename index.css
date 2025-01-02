@@ -17,7 +17,7 @@
 }
 
 .bbb:hover .cc{
-    transform: scale(0.92);
+    transform: scale(0.93);
 }
 .bbb:hover .h5{
     transform: translatey(-35px);
