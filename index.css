@@ -103,6 +103,10 @@
     text-decoration: underline;
     cursor: pointer;
 }
+.hover-icon-foter:hover{
+    color: crimson !important;
+}
+
 @media (max-width:992px) {
     .plent-photo{
         height: 78vh;
